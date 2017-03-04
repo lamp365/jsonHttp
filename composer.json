@@ -1,0 +1,26 @@
+{
+    "name": "kevin/jsonHttp",
+    "description": "一个测试的json格式转换",
+    "type": "project",
+    "homepage": "http://dayblog.cn/",
+    "license": "json-2.0",
+    "authors": [
+        {
+            "name": "刘建凡",
+            "email": "lamp365@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"jsonHttp\\":"src/"}
+    },
+    "repositories": {
+	    "packagist": {
+		"type": "composer",
+		"url": "https://packagist.phpcomposer.com"
+	    }
+     }
+}
