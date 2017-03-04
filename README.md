@@ -6,5 +6,8 @@
 include 'vendor/autoload.php';
 
 $data = array('a','b','bnb');
+
 $json = new \jsonHttp\Json();
+
 echo $json->jsonEncode($data);
+
