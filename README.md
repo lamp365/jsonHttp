@@ -9,6 +9,6 @@ $data = array('a','b','bnb');
 
 $json = new \jsonHttp\Json();
 
-echo $json->jsonEncode($data);
+echo $json->jsonEncode($data);  
 #composer地址  
 https://packagist.org/packages/lamp365/json-http
